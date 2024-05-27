@@ -1,0 +1,63 @@
+{
+  "adMainInfo": {
+    "ctaTextColor": "0xFF000000",
+    "ctaBgColor": "#fff",
+    "adAttrTextColor": "#fff",
+    "adAttrBgColor": "#fff"
+  },
+  "appOpenAds": {
+    "ads": [
+      {
+        "isEnabled": 1,
+        "adKey": "Splash",
+        "adId": ""
+      },
+      {
+        "isEnabled": 1,
+        "adKey": "Normal",
+        "adId": ""
+      }
+    ]
+  },
+  "interstitialAds": {
+    "ads": [
+      {
+        "isEnabled": 1,
+        "adKey": "InterTest",
+        "adId": "",
+        "counterPatterns": [
+          0
+        ],
+        "preLoadBeforeReached": 1,
+        "showInstantIfNotLoaded": 0,
+        "instantDialogMaxTime": 8000,
+        "dialogLoadingTime": 0,
+        "canRequestNewAd": 1
+      }
+    ]
+  },
+  "nativeAds": {
+    "ads": [
+      {
+        "adKey": "Native",
+        "adEnabled": 1,
+        "adId": "",
+        "adType": "layout_name",
+        "height": 80,
+        "isBackupAd": 0
+      }
+    ]
+  },
+  "bannerAds": {
+    "ads": [
+      {
+        "adKey": "Banner",
+        "adEnabled": 1,
+        "adId": "",
+        "adType": "BANNER",
+        "collapsible": 0,
+        "height": 70
+      }
+    ]
+  }
+}
